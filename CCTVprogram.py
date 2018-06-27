@@ -11,9 +11,7 @@ def get_proxies():#获得一个代理ip池
     }
     # Created a cookies
     cookies = {
-        '_free_proxy_session': 'BAh7B0kiD3Nlc3Npb25faWQGOgZFVEkiJTJkZTMzMzIxZDI4MzU0MzI3OTQ5ZjQ5ZDI0YjhiODdkBjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMWFZN1A5S1VBK3ZGSzdPc29qWm5FUDRtS1RaaWRlM0hWb0RrdjVGcEV5UTA9BjsARg%3D%3D--e39755b2c2a86a28c7385ef55ef0217642514887',
-        'Hm_lvt_0cf76c77469e965d2957f0553e6ecf59': '1525508494',
-        'Hm_lpvt_0cf76c77469e965d2957f0553e6ecf59': '1525512685'
+        ##Cookies内容
     }
     html = requests.get(url=get_ip_url, headers=headers, cookies=cookies)
     html.encoding = 'utf-8'
